@@ -31,6 +31,10 @@ AB_OTA_PARTITIONS += \
 # Device characteristics
 DEVICE_CHARACTERISTICS := hfr
 
+# Device Overlays
+PRODUCT_PACKAGES += \
+    CarrierConfig
+
 # Fingerprint
 TARGET_USES_CHIPONE_FINGERPRINT := true
 TARGET_USES_FPC_FINGERPRINT := true
