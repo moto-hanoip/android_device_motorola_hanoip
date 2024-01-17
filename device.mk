@@ -35,6 +35,10 @@ DEVICE_CHARACTERISTICS := hfr
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.idle_time=0
 
+## Device Overlays
+PRODUCT_PACKAGES += \
+    CarrierConfig
+
 # Fingerprint
 TARGET_USES_CHIPONE_FINGERPRINT := true
 TARGET_USES_FPC_FINGERPRINT := true
