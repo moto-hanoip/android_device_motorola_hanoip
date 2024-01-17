@@ -5,6 +5,6 @@
 
 runtime_resource_overlay {
     aaptflags: ["--keep-raw-values"],
-    name: "CarrierConfig",
+    name: "hanoipCarrierConfig",
     product_specific: true,
 }
