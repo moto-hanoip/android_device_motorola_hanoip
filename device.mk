@@ -44,7 +44,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Device Overlays
 PRODUCT_PACKAGES += \
-    CarrierConfig
+    hanoipCarrierConfig
 
 # Fingerprint
 TARGET_USES_CHIPONE_FINGERPRINT := true
