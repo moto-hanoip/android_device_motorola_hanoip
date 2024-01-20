@@ -33,7 +33,8 @@ DEVICE_CHARACTERISTICS := hfr
 
 # Device Overlays
 PRODUCT_PACKAGES += \
-    hanoipCarrierConfig
+    hanoipCarrierConfig \
+    NotchBarKiller
 
 # Fingerprint
 TARGET_USES_CHIPONE_FINGERPRINT := true
