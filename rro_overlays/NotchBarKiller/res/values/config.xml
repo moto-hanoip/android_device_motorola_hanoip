@@ -29,4 +29,9 @@
     <integer name="config_maxVisibleNotificationIcons">4</integer>
     <integer name="config_maxVisibleNotificationIconsWhenDark">5</integer>
 
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height_default">47.0dip</dimen>
+    <dimen name="status_bar_height_landscape">22.0dip</dimen>
+    <dimen name="status_bar_height_portrait">@dimen/status_bar_height_default</dimen>
+
 </resources>
