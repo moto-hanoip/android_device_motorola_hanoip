@@ -31,6 +31,14 @@ AB_OTA_PARTITIONS += \
 # Device characteristics
 DEVICE_CHARACTERISTICS := hfr
 
+# Display
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.display.idle_time=0
+
+#  Surfaceflinger
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.enable_frame_rate_override=false
+
 # Device Overlays
 PRODUCT_PACKAGES += \
     hanoipCarrierConfig \
