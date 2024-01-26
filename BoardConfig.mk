@@ -19,6 +19,10 @@ include device/motorola/sm6150-common/PlatformConfig.mk
 # Boot Header
 BOARD_BOOT_HEADER_VERSION := 3
 
+# Init
+TARGET_INIT_VENDOR_LIB := //device/motorola/hanoip:init_hanoip
+TARGET_RECOVERY_DEVICE_MODULES := init_hanoip
+
 # Partition information
 BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := $(BOARD_BOOTIMAGE_PARTITION_SIZE)
 
