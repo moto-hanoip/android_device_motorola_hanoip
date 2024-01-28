@@ -59,11 +59,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_MODEL := moto g(60)
 
 # Fingerprint
+BUILD_FINGERPRINT := "motorola/hanoip_retail/hanoip:11/S2RI32.32-20-9-9-2/1591b:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=hanoip_retail \
-    PRIVATE_BUILD_DESC="hanoip-user 12 S2RI32M.32-20-9-9-2 5bf47 release-keys"
-
-BUILD_FINGERPRINT := motorola/hanoip_retail/hanoip:12/S2RI32M.32-20-9-9-2/5bf47:user/release-keys
+    PRIVATE_BUILD_DESC="hanoip_retail-user 11 S2RI32.32-20-9-9-2 1591b release-keys"
 
 # NFC
 TARGET_USES_PN5XX_PN8X_NFC := true
