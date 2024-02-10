@@ -64,7 +64,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="hanoip_retail-user 11 S2RI32.32-20-9-9-2 1591b release-keys"
 
 # NFC
-TARGET_USES_PN5XX_PN8X_NFC := true
+TARGET_USES_NXP_NFC := true
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/sm6150-common/platform.mk)
