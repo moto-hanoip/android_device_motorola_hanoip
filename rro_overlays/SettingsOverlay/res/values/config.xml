@@ -23,4 +23,6 @@
     -->
     <integer name="config_fingerprintSensorLocation">0</integer>
 
+    <string name="maintainer_name">Semisapeol</string>
+
 </resources>
