@@ -14,7 +14,6 @@
 
 # Device path
 DEVICE_PATH := device/motorola/hanoip/rootdir
-LOCAL_PATH := device/motorola/hanoip
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal

@@ -16,6 +16,10 @@
 PRODUCT_PLATFORM := sm6150
 include device/motorola/sm6150-common/PlatformConfig.mk
 
+# Init
+TARGET_INIT_VENDOR_LIB := //device/motorola/hanoip:init_motorola_hanoip
+TARGET_RECOVERY_DEVICE_MODULES := init_motorola_hanoip
+
 # Boot Header
 BOARD_BOOT_HEADER_VERSION := 3
 
